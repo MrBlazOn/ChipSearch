@@ -1,3 +1,8 @@
-<% SearchController.new.get_info.each do |piece| %>
-  <br><%= piece %>
+<% products_info = SearchController.new.get_info %>
+
+<% (0...products_info[0].length).each do |i| %>
+  <% products_info.each do |info| %>
+    <%= info[i] %>
+  <% end %>
+  <br>
 <% end %>
