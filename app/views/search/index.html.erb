@@ -1,5 +1,3 @@
-<h1>Hello</h1>
-<% SearchController.new.find_all_reviews.each do |link| %>
-  <% link_href = link.to_s[/href\s*=\s*"([^"]*)"/] %>
-  <hr><%= link_to "#{link.to_s.gsub(/<\/?[^>]*>/, "")}", link_href %>
+<% SearchController.new.get_info.each do |piece| %>
+  <br><%= piece %>
 <% end %>

@@ -1360,3 +1360,1751 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:26:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (600.8ms)
+Completed 200 OK in 817ms (Views: 800.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/href=%22product/?selected_product=14336%22" for 127.0.0.1 at 2018-10-29 19:27:21 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/href=%22product"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:29:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (651.3ms)
+Completed 200 OK in 852ms (Views: 840.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/href=%22sitepics/electrolit_snapinb.jpg%22" for 127.0.0.1 at 2018-10-29 19:29:32 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/href=%22sitepics/electrolit_snapinb.jpg%22"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:30:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (847.2ms)
+Completed 200 OK in 964ms (Views: 948.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:42:05 +0300
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/search_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:42:16 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (854.2ms)
+Completed 500 Internal Server Error in 870ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (ERROR: Invalid expression: [@class='denoPrice']):
+    1: <h1>Hello</h1>
+    2: <% SearchController.new.get_price %>
+  
+app/controllers/search_controller.rb:18:in `get_price'
+app/views/search/index.html.erb:2:in `_app_views_search_index_html_erb___2545302713400892533_70096443065700'
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:42:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (533.0ms)
+Completed 500 Internal Server Error in 545ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (node_set must be a Nokogiri::XML::NodeSet):
+    1: <h1>Hello</h1>
+    2: <% SearchController.new.get_price %>
+  
+app/controllers/search_controller.rb:18:in `get_price'
+app/views/search/index.html.erb:2:in `_app_views_search_index_html_erb___2545302713400892533_70096446903100'
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:43:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (701.9ms)
+Completed 500 Internal Server Error in 715ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (node_set must be a Nokogiri::XML::NodeSet):
+    1: <h1>Hello</h1>
+    2: <% SearchController.new.get_price %>
+  
+app/controllers/search_controller.rb:17:in `get_price'
+app/views/search/index.html.erb:2:in `_app_views_search_index_html_erb___2545302713400892533_70096497175940'
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:52:18 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (899.7ms)
+Completed 500 Internal Server Error in 932ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `dev' for #<SearchController:0x00007f813338dce8>
+Did you mean?  div):
+    1: <h1>Hello</h1>
+    2: <% SearchController.new.get_price %>
+  
+app/controllers/search_controller.rb:17:in `get_price'
+app/views/search/index.html.erb:2:in `_app_views_search_index_html_erb___2545302713400892533_70096443451620'
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:52:29 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1028.9ms)
+Completed 200 OK in 1083ms (Views: 1079.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:52:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (808.5ms)
+Completed 200 OK in 845ms (Views: 841.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:52:51 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (679.8ms)
+Completed 200 OK in 721ms (Views: 716.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:55:04 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (967.5ms)
+Completed 200 OK in 1030ms (Views: 1022.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:57:16 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2230.9ms)
+Completed 200 OK in 2311ms (Views: 2299.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 19:58:39 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1803.4ms)
+Completed 200 OK in 1870ms (Views: 1861.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:01:00 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2742.0ms)
+Completed 500 Internal Server Error in 2768ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Hello</h1>
+    2: <%= SearchController.new.get_price %>
+    3: <%= SearchController.new.get_name %>
+  
+app/controllers/search_controller.rb:23:in `get_name'
+app/views/search/index.html.erb:3:in `_app_views_search_index_html_erb___2545302713400892533_70096488348460'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:02:18 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1343.9ms)
+Completed 200 OK in 1433ms (Views: 1413.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:04:09 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1448.9ms)
+Completed 200 OK in 1536ms (Views: 1526.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:04:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1659.1ms)
+Completed 200 OK in 1758ms (Views: 1750.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:05:27 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2930.2ms)
+Completed 500 Internal Server Error in 2944ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `text' for nil:NilClass):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+  
+app/controllers/search_controller.rb:27:in `get_link'
+app/views/search/index.html.erb:4:in `_app_views_search_index_html_erb___2545302713400892533_70096467292640'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:06:21 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2712.2ms)
+Completed 500 Internal Server Error in 2735ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `text' for "sitepics/electrolit_snapinb.jpg":String
+Did you mean?  ext):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+  
+app/controllers/search_controller.rb:27:in `get_link'
+app/views/search/index.html.erb:4:in `_app_views_search_index_html_erb___2545302713400892533_70096470767920'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:07:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2170.7ms)
+Completed 200 OK in 2219ms (Views: 2214.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:09:02 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2033.8ms)
+Completed 200 OK in 2083ms (Views: 2077.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:11:00 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2268.0ms)
+Completed 500 Internal Server Error in 2298ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `page' for #<SearchController:0x00007f81363fed78>):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+  
+app/controllers/search_controller.rb:27:in `get_link'
+app/views/search/index.html.erb:4:in `_app_views_search_index_html_erb___2545302713400892533_70096488982000'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:11:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1740.2ms)
+Completed 500 Internal Server Error in 1754ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+  
+app/controllers/search_controller.rb:27:in `[]'
+app/controllers/search_controller.rb:27:in `get_link'
+app/views/search/index.html.erb:4:in `_app_views_search_index_html_erb___2545302713400892533_70096489729980'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:11:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1533.0ms)
+Completed 200 OK in 1567ms (Views: 1562.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:11:49 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1433.1ms)
+Completed 200 OK in 1464ms (Views: 1460.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:11:52 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1434.9ms)
+Completed 200 OK in 1466ms (Views: 1462.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:12:04 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2150.1ms)
+Completed 500 Internal Server Error in 2163ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+  
+app/controllers/search_controller.rb:27:in `get_link'
+app/views/search/index.html.erb:4:in `_app_views_search_index_html_erb___2545302713400892533_70096489793840'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:14:05 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (518.3ms)
+Completed 500 Internal Server Error in 538ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (too many connection resets (due to end of file reached - EOFError) after 1 requests on 70096489067800, last used 0.13801 seconds ago):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+  
+app/controllers/search_controller.rb:12:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_price'
+app/views/search/index.html.erb:2:in `_app_views_search_index_html_erb___2545302713400892533_70096489015880'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:14:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2353.1ms)
+Completed 500 Internal Server Error in 2377ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+  
+app/controllers/search_controller.rb:28:in `get_link'
+app/views/search/index.html.erb:4:in `_app_views_search_index_html_erb___2545302713400892533_70096443120040'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:19:46 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+    5: 
+  
+app/controllers/search_controller.rb:24:in `get_price'
+app/views/search/index.html.erb:2:in `_app_views_search_index_html_erb___2545302713400892533_70096488148520'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:21:08 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    1: <h1>Hello</h1>
+    2: <br><%= SearchController.new.get_price %>
+    3: <br><%= SearchController.new.get_title %>
+    4: <br><%= SearchController.new.get_link %>
+    5: 
+  
+app/controllers/search_controller.rb:23:in `get_price'
+app/views/search/index.html.erb:2:in `_app_views_search_index_html_erb___2545302713400892533_70096488766420'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:22:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1370.8ms)
+Completed 200 OK in 1451ms (Views: 1442.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:23:17 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (20.7ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `products' for #<SearchController:0x00007f813619a4d8>
+Did you mean?  process):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096467710540'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:23:54 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (683.7ms)
+Completed 200 OK in 732ms (Views: 727.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:25:13 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (942.0ms)
+Completed 200 OK in 1014ms (Views: 1007.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:27:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (859.3ms)
+Completed 200 OK in 913ms (Views: 906.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:27:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (804.7ms)
+Completed 200 OK in 844ms (Views: 840.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:27:48 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1142.5ms)
+Completed 200 OK in 1184ms (Views: 1180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:28:09 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (964.7ms)
+Completed 200 OK in 1011ms (Views: 1006.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:28:18 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1092.5ms)
+Completed 200 OK in 1155ms (Views: 1150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:28:41 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (711.0ms)
+Completed 200 OK in 751ms (Views: 746.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:28:43 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (903.7ms)
+Completed 200 OK in 959ms (Views: 954.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:29:03 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (837.1ms)
+Completed 200 OK in 917ms (Views: 909.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:29:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1082.1ms)
+Completed 200 OK in 1148ms (Views: 1144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:29:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1124.0ms)
+Completed 500 Internal Server Error in 1155ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:31:in `[]'
+app/controllers/search_controller.rb:31:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096447786840'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:29:51 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (992.7ms)
+Completed 200 OK in 1109ms (Views: 1098.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:30:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1704.3ms)
+Completed 200 OK in 1789ms (Views: 1780.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:31:19 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1101.5ms)
+Completed 500 Internal Server Error in 1133ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:31:in `[]'
+app/controllers/search_controller.rb:31:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096432526160'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:32:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1022.4ms)
+Completed 200 OK in 1073ms (Views: 1065.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:32:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1041.0ms)
+Completed 200 OK in 1079ms (Views: 1073.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:33:04 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1024.9ms)
+Completed 500 Internal Server Error in 1044ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Regexp into Integer):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:31:in `[]'
+app/controllers/search_controller.rb:31:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096444255040'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:33:23 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (961.6ms)
+Completed 500 Internal Server Error in 977ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (incompatible encoding regexp match (Windows-31J regexp with UTF-8 string)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:31:in `[]'
+app/controllers/search_controller.rb:31:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096497582220'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:33:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1472.1ms)
+Completed 200 OK in 1517ms (Views: 1514.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:34:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (999.9ms)
+Completed 200 OK in 1036ms (Views: 1032.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:34:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (832.9ms)
+Completed 200 OK in 868ms (Views: 864.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:34:50 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (789.0ms)
+Completed 200 OK in 833ms (Views: 829.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:35:02 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1598.3ms)
+Completed 200 OK in 1694ms (Views: 1689.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:35:11 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (965.6ms)
+Completed 200 OK in 1035ms (Views: 1029.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:35:17 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (735.2ms)
+Completed 200 OK in 792ms (Views: 788.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:35:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (912.5ms)
+Completed 200 OK in 969ms (Views: 966.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:35:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (781.8ms)
+Completed 200 OK in 844ms (Views: 840.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:35:54 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (986.5ms)
+Completed 200 OK in 1072ms (Views: 1064.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:36:09 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1214.4ms)
+Completed 200 OK in 1333ms (Views: 1328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:36:27 +0300
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:31: syntax error, unexpected ']'
+..._s[/href\s*=\s*"([^"]*)"/][6..]
+...                              ^):
+  
+app/controllers/search_controller.rb:31: syntax error, unexpected ']'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:36:35 +0300
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:31: syntax error, unexpected ']'
+...s[/href\s*=\s*"([^"]*)"/][6...]
+...                              ^):
+  
+app/controllers/search_controller.rb:31: syntax error, unexpected ']'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:38:33 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (972.9ms)
+Completed 500 Internal Server Error in 1000ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:30:in `[]'
+app/controllers/search_controller.rb:30:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096465447120'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:38:57 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (945.3ms)
+Completed 200 OK in 990ms (Views: 986.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:39:39 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (26.8ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to belchip.by:80 (getaddrinfo: nodename nor servname provided, or not known)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096470228500'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:39:45 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (911.7ms)
+Completed 500 Internal Server Error in 925ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `attributes' for #<Nokogiri::XML::NodeSet:0x00007f81365ed058>
+Did you mean?  attribute):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:30:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096468828880'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:39:48 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (108.9ms)
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to belchip.by:443 (getaddrinfo: nodename nor servname provided, or not known)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096489320040'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:40:04 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1470.2ms)
+Completed 500 Internal Server Error in 1483ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `attributes' for #<Nokogiri::XML::NodeSet:0x00007f81331a7d70>
+Did you mean?  attribute):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:30:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096442732740'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:40:14 +0300
+  
+Errno::EMFILE (Too many open files - bs_fetch:open_cache_file:open):
+  
+bootsnap (1.3.2) lib/bootsnap/compile_cache/iseq.rb:37:in `fetch'
+bootsnap (1.3.2) lib/bootsnap/compile_cache/iseq.rb:37:in `load_iseq'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:472:in `block in load_file'
+activesupport (5.2.1) lib/active_support/dependencies.rb:657:in `new_constants_in'
+activesupport (5.2.1) lib/active_support/dependencies.rb:471:in `load_file'
+activesupport (5.2.1) lib/active_support/dependencies.rb:369:in `block in require_or_load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:37:in `block in load_interlock'
+activesupport (5.2.1) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.1) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.1) lib/active_support/dependencies/interlock.rb:13:in `loading'
+activesupport (5.2.1) lib/active_support/dependencies.rb:37:in `load_interlock'
+activesupport (5.2.1) lib/active_support/dependencies.rb:352:in `require_or_load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:46:in `block in require_or_load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:45:in `require_or_load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:506:in `load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:57:in `load_missing_constant'
+activesupport (5.2.1) lib/active_support/dependencies.rb:193:in `const_missing'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.1) lib/active_support/dependencies.rb:578:in `get'
+activesupport (5.2.1) lib/active_support/dependencies.rb:609:in `constantize'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:40:34 +0300
+  
+Errno::EMFILE (Too many open files - bs_fetch:open_cache_file:open):
+  
+bootsnap (1.3.2) lib/bootsnap/compile_cache/iseq.rb:37:in `fetch'
+bootsnap (1.3.2) lib/bootsnap/compile_cache/iseq.rb:37:in `load_iseq'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:472:in `block in load_file'
+activesupport (5.2.1) lib/active_support/dependencies.rb:657:in `new_constants_in'
+activesupport (5.2.1) lib/active_support/dependencies.rb:471:in `load_file'
+activesupport (5.2.1) lib/active_support/dependencies.rb:369:in `block in require_or_load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:37:in `block in load_interlock'
+activesupport (5.2.1) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.1) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.1) lib/active_support/dependencies/interlock.rb:13:in `loading'
+activesupport (5.2.1) lib/active_support/dependencies.rb:37:in `load_interlock'
+activesupport (5.2.1) lib/active_support/dependencies.rb:352:in `require_or_load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:46:in `block in require_or_load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:45:in `require_or_load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:506:in `load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:57:in `load_missing_constant'
+activesupport (5.2.1) lib/active_support/dependencies.rb:193:in `const_missing'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.1) lib/active_support/dependencies.rb:578:in `get'
+activesupport (5.2.1) lib/active_support/dependencies.rb:609:in `constantize'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:40:36 +0300
+  
+Errno::EMFILE (Too many open files - bs_fetch:open_cache_file:open):
+  
+bootsnap (1.3.2) lib/bootsnap/compile_cache/iseq.rb:37:in `fetch'
+bootsnap (1.3.2) lib/bootsnap/compile_cache/iseq.rb:37:in `load_iseq'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:472:in `block in load_file'
+activesupport (5.2.1) lib/active_support/dependencies.rb:657:in `new_constants_in'
+activesupport (5.2.1) lib/active_support/dependencies.rb:471:in `load_file'
+activesupport (5.2.1) lib/active_support/dependencies.rb:369:in `block in require_or_load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:37:in `block in load_interlock'
+activesupport (5.2.1) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.1) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.1) lib/active_support/dependencies/interlock.rb:13:in `loading'
+activesupport (5.2.1) lib/active_support/dependencies.rb:37:in `load_interlock'
+activesupport (5.2.1) lib/active_support/dependencies.rb:352:in `require_or_load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:46:in `block in require_or_load'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:45:in `require_or_load'
+activesupport (5.2.1) lib/active_support/dependencies.rb:506:in `load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:57:in `load_missing_constant'
+activesupport (5.2.1) lib/active_support/dependencies.rb:193:in `const_missing'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.1) lib/active_support/dependencies.rb:578:in `get'
+activesupport (5.2.1) lib/active_support/dependencies.rb:609:in `constantize'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.1) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:40:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to belchip.by:80 (getaddrinfo: nodename nor servname provided, or not known)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096489975180'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:40:47 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to belchip.by:80 (getaddrinfo: nodename nor servname provided, or not known)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096436367980'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:40:49 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to belchip.by:80 (getaddrinfo: nodename nor servname provided, or not known)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096468876280'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:40:51 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to belchip.by:80 (getaddrinfo: nodename nor servname provided, or not known)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096470827340'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:41:09 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (26.9ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to belchip.by:80 (getaddrinfo: nodename nor servname provided, or not known)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2545302713400892533_70096488300800'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:41:38 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (785.2ms)
+Completed 200 OK in 1047ms (Views: 1033.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:42:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (754.2ms)
+Completed 200 OK in 799ms (Views: 794.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:42:47 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (837.2ms)
+Completed 200 OK in 890ms (Views: 886.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:42:49 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (796.2ms)
+Completed 200 OK in 838ms (Views: 833.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:45:41 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1092.3ms)
+Completed 200 OK in 1185ms (Views: 1177.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:45:53 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (826.8ms)
+Completed 200 OK in 886ms (Views: 882.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:46:04 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1066.8ms)
+Completed 200 OK in 1139ms (Views: 1132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:46:13 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (957.3ms)
+Completed 200 OK in 1005ms (Views: 1000.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:46:19 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (829.4ms)
+Completed 200 OK in 866ms (Views: 861.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:46:45 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (979.4ms)
+Completed 200 OK in 1030ms (Views: 1025.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:46:47 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (853.8ms)
+Completed 200 OK in 895ms (Views: 890.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:47:52 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (751.3ms)
+Completed 200 OK in 805ms (Views: 800.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:48:13 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (822.1ms)
+Completed 200 OK in 872ms (Views: 868.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:48:31 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (997.4ms)
+Completed 200 OK in 1043ms (Views: 1039.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:48:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (843.5ms)
+Completed 200 OK in 884ms (Views: 880.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:49:12 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (888.6ms)
+Completed 200 OK in 922ms (Views: 918.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:49:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (839.4ms)
+Completed 200 OK in 883ms (Views: 878.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:50:10 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1078.6ms)
+Completed 200 OK in 1137ms (Views: 1130.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:50:18 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1009.9ms)
+Completed 200 OK in 1049ms (Views: 1044.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:51:40 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1320.6ms)
+Completed 200 OK in 1372ms (Views: 1367.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:51:51 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (813.6ms)
+Completed 200 OK in 872ms (Views: 865.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:52:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (846.8ms)
+Completed 200 OK in 980ms (Views: 973.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:52:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (989.0ms)
+Completed 200 OK in 1053ms (Views: 1049.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:52:45 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (834.8ms)
+Completed 200 OK in 883ms (Views: 877.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:53:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (974.0ms)
+Completed 200 OK in 1030ms (Views: 1024.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:54:27 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (848.5ms)
+Completed 500 Internal Server Error in 874ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `link' for #<SearchController:0x00007f9ebcca9588>):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:29:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2383349364954260627_70159874510000'
+Started GET "/" for 127.0.0.1 at 2018-10-29 20:54:40 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (796.0ms)
+Completed 200 OK in 836ms (Views: 832.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:02:31 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (511.8ms)
+Completed 500 Internal Server Error in 534ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2383349364954260627_70159828940140'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:02:41 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (264.2ms)
+Completed 500 Internal Server Error in 279ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2383349364954260627_70159840994720'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:02:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (303.7ms)
+Completed 500 Internal Server Error in 317ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2383349364954260627_70159872281540'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:02:57 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (235.9ms)
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2383349364954260627_70159827584740'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:03:19 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (274.6ms)
+Completed 500 Internal Server Error in 295ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2383349364954260627_70159874101460'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:03:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (352.3ms)
+Completed 500 Internal Server Error in 375ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2898980099814233256_70114520112860'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:03:48 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (291.2ms)
+Completed 500 Internal Server Error in 309ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2898980099814233256_70114546509100'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:04:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (256.1ms)
+Completed 500 Internal Server Error in 269ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2898980099814233256_70114523808420'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:04:09 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (216.0ms)
+Completed 500 Internal Server Error in 228ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2898980099814233256_70114550096440'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:04:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (197.6ms)
+Completed 500 Internal Server Error in 210ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2898980099814233256_70114545943820'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:04:29 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (284.2ms)
+Completed 500 Internal Server Error in 297ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2898980099814233256_70114545697880'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:04:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (339.7ms)
+Completed 500 Internal Server Error in 364ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb___2898980099814233256_70114549853960'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:06:01 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (374.7ms)
+Completed 500 Internal Server Error in 397ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__222572082863920618_70133517580940'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:07:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (358.6ms)
+Completed 500 Internal Server Error in 385ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (end of file reached (Mechanize::ChunkedTerminationError)):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:9:in `find_all_products'
+app/controllers/search_controller.rb:16:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__222572082863920618_70133546684760'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:09:52 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (957.4ms)
+Completed 500 Internal Server Error in 980ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `link' for #<SearchController:0x00007f927aaca350>):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:29:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__222572082863920618_70133550072100'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:10:12 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (807.3ms)
+Completed 200 OK in 1146ms (Views: 1141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:11:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (863.9ms)
+Completed 500 Internal Server Error in 880ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `second' for #<Nokogiri::XML::NodeSet:0x00007f9277a01728>
+Did you mean?  send):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:29:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__222572082863920618_70133519777860'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:11:34 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (768.3ms)
+Completed 500 Internal Server Error in 785ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `value' for #<Nokogiri::XML::NodeSet:0x00007f927da06ec0>):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:29:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__222572082863920618_70133571507880'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:11:42 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (920.7ms)
+Completed 200 OK in 981ms (Views: 977.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:12:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (889.9ms)
+Completed 500 Internal Server Error in 903ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `split' for #<Nokogiri::XML::NodeSet:0x00007f927d0008e0>):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/controllers/search_controller.rb:29:in `get_link'
+app/controllers/search_controller.rb:17:in `get_info'
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__222572082863920618_70133569672780'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:12:35 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (950.9ms)
+Completed 200 OK in 1021ms (Views: 1015.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:12:54 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (866.5ms)
+Completed 200 OK in 898ms (Views: 895.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:14:21 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (47539.8ms)
+Completed 200 OK in 47616ms (Views: 47606.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:16:00 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1678.9ms)
+Completed 200 OK in 1726ms (Views: 1720.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:16:11 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (803.3ms)
+Completed 200 OK in 959ms (Views: 951.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:16:31 +0300
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:29: syntax error, unexpected $undefined
+....xpath('//h3/a/@href').to_s[5/\d/]
+...                              ^):
+  
+app/controllers/search_controller.rb:29: syntax error, unexpected $undefined
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:22:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2177.7ms)
+Completed 200 OK in 2866ms (Views: 2435.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:24:58 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (38657.3ms)
+Completed 200 OK in 38975ms (Views: 38964.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:26:48 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (985.5ms)
+Completed 200 OK in 1056ms (Views: 1049.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:26:59 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1033.2ms)
+Completed 200 OK in 1075ms (Views: 1070.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:31:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (990.1ms)
+Completed 500 Internal Server Error in 1011ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for 0:Integer):
+    1: <% SearchController.new.get_info.each do |piece| %>
+    2:   <br><%= piece %>
+    3: <% end %>
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__222572082863920618_70133552358180'
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:31:42 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1620.4ms)
+Completed 200 OK in 1659ms (Views: 1656.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:32:54 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (750.4ms)
+Completed 200 OK in 788ms (Views: 782.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:33:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (711.8ms)
+Completed 200 OK in 751ms (Views: 744.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:33:43 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (850.1ms)
+Completed 200 OK in 884ms (Views: 879.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:34:23 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:34:39 +0300
+  Rendered search/index.html.erb within layouts/application (35533.1ms)
+Completed 200 OK in 35576ms (Views: 35572.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:34:58 +0300
+Processing by SearchController#index as HTML
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1210.3ms)
+  Rendered search/index.html.erb within layouts/application (1295.6ms)
+Completed 200 OK in 1387ms (Views: 1376.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1384ms (Views: 1362.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-29 21:35:01 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1173.1ms)
+Completed 200 OK in 1225ms (Views: 1221.8ms | ActiveRecord: 0.0ms)
+
+
