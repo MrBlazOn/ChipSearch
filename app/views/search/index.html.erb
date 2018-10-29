@@ -1,8 +1,7 @@
 <% products_info = SearchController.new.get_info %>
 
 <% (0...products_info[0].length).each do |i| %>
-  <% products_info.each do |info| %>
-    <%= info[i] %>
-  <% end %>
+  <%= link_to "#{products_info[0][i]} ", "http://belchip.by/#{products_info[2][i]}" %>
+  <%= products_info[1][i] %>
   <br>
 <% end %>
