@@ -4372,3 +4372,1041 @@ Processing by SearchController#index as HTML
 Completed 200 OK in 490ms (Views: 479.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-30 15:48:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (649.4ms)
+Completed 200 OK in 938ms (Views: 926.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 15:49:16 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (441.9ms)
+Completed 200 OK in 492ms (Views: 486.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 15:57:00 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (681.2ms)
+Completed 200 OK in 777ms (Views: 761.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:02:21 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (543.2ms)
+Completed 200 OK in 7719ms (Views: 7707.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:02:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (494.6ms)
+Completed 200 OK in 593ms (Views: 586.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:11:35 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (733.7ms)
+Completed 200 OK in 900ms (Views: 879.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:11:48 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (612.9ms)
+Completed 200 OK in 712ms (Views: 706.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:17:36 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (522.2ms)
+Completed 200 OK in 637ms (Views: 628.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:17:49 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (603.6ms)
+Completed 200 OK in 662ms (Views: 656.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:17:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (794.8ms)
+Completed 200 OK in 841ms (Views: 836.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:18:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (530.0ms)
+Completed 200 OK in 576ms (Views: 572.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:18:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (953.6ms)
+Completed 200 OK in 1112ms (Views: 1103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:18:58 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (586.8ms)
+Completed 200 OK in 679ms (Views: 675.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:19:08 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (617.8ms)
+Completed 200 OK in 684ms (Views: 679.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:21:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (483.1ms)
+Completed 200 OK in 5338ms (Views: 5327.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:23:52 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (539.3ms)
+Completed 200 OK in 4510ms (Views: 4494.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:24:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (474.7ms)
+Completed 200 OK in 4207ms (Views: 4203.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:24:46 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (486.3ms)
+Completed 200 OK in 545ms (Views: 540.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:24:52 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (439.1ms)
+Completed 200 OK in 533ms (Views: 529.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:25:05 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (496.6ms)
+Completed 200 OK in 558ms (Views: 554.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:25:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (948.3ms)
+Completed 200 OK in 1029ms (Views: 1025.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:26:08 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (790.4ms)
+Completed 200 OK in 853ms (Views: 848.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:26:18 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (513.8ms)
+Completed 200 OK in 4040ms (Views: 4036.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:26:59 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (841.3ms)
+Completed 200 OK in 915ms (Views: 906.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:27:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (605.7ms)
+Completed 200 OK in 746ms (Views: 741.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:28:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/views/search/index.html.erb:25: syntax error, unexpected end-of-input, expecting keyword_end
+          end
+             ^):
+  
+app/views/search/index.html.erb:25: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:28:50 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (797.5ms)
+Completed 200 OK in 863ms (Views: 857.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:29:46 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (534.5ms)
+Completed 200 OK in 586ms (Views: 582.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:31:02 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1007.8ms)
+Completed 200 OK in 1092ms (Views: 1083.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:31:28 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1169.3ms)
+Completed 200 OK in 1212ms (Views: 1208.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:31:45 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (701.4ms)
+Completed 200 OK in 749ms (Views: 745.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:31:53 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (457.8ms)
+Completed 200 OK in 517ms (Views: 512.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:32:38 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (812.5ms)
+Completed 200 OK in 869ms (Views: 865.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:33:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (491.2ms)
+Completed 200 OK in 594ms (Views: 583.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:33:36 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (430.2ms)
+Completed 200 OK in 480ms (Views: 476.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:33:45 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (761.5ms)
+Completed 200 OK in 810ms (Views: 806.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:34:33 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (410.9ms)
+Completed 200 OK in 464ms (Views: 461.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:34:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (391.1ms)
+Completed 200 OK in 666ms (Views: 662.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:35:06 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (555.8ms)
+Completed 200 OK in 601ms (Views: 598.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:35:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (423.1ms)
+Completed 200 OK in 467ms (Views: 463.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:36:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (768.9ms)
+Completed 200 OK in 860ms (Views: 855.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:37:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (581.3ms)
+Completed 200 OK in 703ms (Views: 693.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:38:21 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (496.3ms)
+Completed 200 OK in 633ms (Views: 627.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:38:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (476.8ms)
+Completed 200 OK in 541ms (Views: 537.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:38:38 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (417.1ms)
+Completed 200 OK in 485ms (Views: 481.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:38:45 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (688.5ms)
+Completed 200 OK in 752ms (Views: 748.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:39:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (748.4ms)
+Completed 200 OK in 865ms (Views: 849.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:40:01 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (746.8ms)
+Completed 200 OK in 799ms (Views: 794.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:43:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (478.6ms)
+Completed 200 OK in 552ms (Views: 540.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:43:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (15893.5ms)
+Completed 200 OK in 15959ms (Views: 15953.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:44:34 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (connection refused: belchip.by:80):
+     7: </nav>
+     8: 
+     9: <div class="search-results">
+    10:   <% products_info = SearchController.new.get_info %>
+    11:   <% (0...products_info[0].length).each do |i| %>
+    12:   <div class="card">
+    13:     <div class="card-body">
+  
+app/controllers/search_controller.rb:6:in `find_all_products'
+app/controllers/search_controller.rb:13:in `get_info'
+app/views/search/index.html.erb:10:in `_app_views_search_index_html_erb__1756744147198290143_70264648151500'
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:44:38 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:44:48 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (147046.3ms)
+  Rendered search/index.html.erb within layouts/application (137594.4ms)
+Completed 200 OK in 147335ms (Views: 147330.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 137767ms (Views: 137762.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:47:33 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (4057.8ms)
+Completed 200 OK in 4560ms (Views: 4551.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:48:25 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1074.1ms)
+Completed 200 OK in 1151ms (Views: 1143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:48:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (854.6ms)
+Completed 200 OK in 914ms (Views: 911.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:48:46 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1295.9ms)
+Completed 200 OK in 1389ms (Views: 1383.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:48:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1048.3ms)
+Completed 200 OK in 1145ms (Views: 1139.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 16:49:02 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (846.1ms)
+Completed 200 OK in 916ms (Views: 910.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 17:10:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (501.7ms)
+Completed 200 OK in 612ms (Views: 605.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 17:43:31 +0300
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:38: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/search_controller.rb:38: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-10-30 17:52:17 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (524.8ms)
+Completed 200 OK in 621ms (Views: 610.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 17:53:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1002.4ms)
+Completed 200 OK in 1072ms (Views: 1069.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:27:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (449.3ms)
+Completed 500 Internal Server Error in 483ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (ERROR: Invalid expression: //@class=h_pr nw/span):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_belchip_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/controllers/search_controller.rb:56:in `get_prices'
+app/controllers/search_controller.rb:45:in `get_belchip_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213594937180'
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:28:23 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (172.1ms)
+Completed 500 Internal Server Error in 185ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (ERROR: Invalid type: //@class='h_pr nw'/span):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_belchip_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/controllers/search_controller.rb:56:in `get_prices'
+app/controllers/search_controller.rb:45:in `get_belchip_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213586308200'
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:28:33 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (181.6ms)
+Completed 200 OK in 265ms (Views: 259.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:31:17 +0300
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:64: syntax error, unexpected keyword_end, expecting '}'
+  end
+  ^~~):
+  
+app/controllers/search_controller.rb:64: syntax error, unexpected keyword_end, expecting '}'
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:31:49 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (266.0ms)
+Completed 200 OK in 322ms (Views: 318.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:32:16 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (171.6ms)
+Completed 200 OK in 220ms (Views: 215.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:32:50 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (205.1ms)
+Completed 200 OK in 272ms (Views: 267.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/0" for 127.0.0.1 at 2018-10-30 18:32:52 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/0"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/0" for 127.0.0.1 at 2018-10-30 18:32:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/0"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/0" for 127.0.0.1 at 2018-10-30 18:33:01 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/0"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:33:08 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (199.8ms)
+Completed 200 OK in 259ms (Views: 255.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:33:43 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (225.0ms)
+Completed 500 Internal Server Error in 237ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (ERROR: Invalid expression: //h_pr nw/span):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_belchip_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/controllers/search_controller.rb:56:in `get_prices'
+app/controllers/search_controller.rb:45:in `get_belchip_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213571724020'
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:35:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (274.6ms)
+Completed 500 Internal Server Error in 302ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (ERROR: Invalid predicate: //td[contains(@class, 'h_pr nw')/span):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_belchip_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/controllers/search_controller.rb:56:in `get_prices'
+app/controllers/search_controller.rb:45:in `get_belchip_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213601313940'
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:35:52 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (196.0ms)
+Completed 200 OK in 250ms (Views: 247.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:36:47 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (200.6ms)
+Completed 200 OK in 264ms (Views: 260.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:37:11 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (188.5ms)
+Completed 500 Internal Server Error in 201ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `split' for #<Nokogiri::XML::Element:0x00007fb7b938eff0>):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_belchip_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/controllers/search_controller.rb:56:in `block in get_prices'
+app/controllers/search_controller.rb:56:in `get_prices'
+app/controllers/search_controller.rb:45:in `get_belchip_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213594457480'
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:37:23 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (182.1ms)
+Completed 500 Internal Server Error in 195ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `text' for "<span":String
+Did you mean?  ext):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_belchip_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/controllers/search_controller.rb:56:in `block in get_prices'
+app/controllers/search_controller.rb:56:in `get_prices'
+app/controllers/search_controller.rb:45:in `get_belchip_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213585799220'
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:37:43 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (203.1ms)
+Completed 200 OK in 266ms (Views: 262.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:39:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (390.7ms)
+Completed 200 OK in 483ms (Views: 476.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:40:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (230.0ms)
+Completed 200 OK in 312ms (Views: 308.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:40:42 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (255.6ms)
+Completed 200 OK in 363ms (Views: 358.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:44:35 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (275.8ms)
+Completed 200 OK in 400ms (Views: 391.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 18:44:59 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (235.3ms)
+Completed 200 OK in 299ms (Views: 295.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:21:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (28.5ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `get_belchip_products' for #<SearchController:0x00007fb7c0bef800>
+Did you mean?  find_belchip_products):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_belchip_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213594806080'
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:22:11 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1225.1ms)
+Completed 200 OK in 1301ms (Views: 1297.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:22:26 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (901.0ms)
+Completed 200 OK in 962ms (Views: 957.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:22:47 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1604.7ms)
+Completed 200 OK in 1645ms (Views: 1641.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:25:26 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1124.2ms)
+Completed 200 OK in 1281ms (Views: 1272.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:25:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1033.0ms)
+Completed 200 OK in 1232ms (Views: 1226.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:36:13 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1792.1ms)
+Completed 200 OK in 1981ms (Views: 1966.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:36:25 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (894.3ms)
+Completed 200 OK in 1017ms (Views: 1006.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:36:27 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (933.7ms)
+Completed 200 OK in 1020ms (Views: 1016.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:36:35 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1140.2ms)
+Completed 200 OK in 1241ms (Views: 1236.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:37:13 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1259.6ms)
+Completed 200 OK in 1317ms (Views: 1312.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:37:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1332.9ms)
+Completed 200 OK in 1397ms (Views: 1391.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:38:29 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1038.1ms)
+Completed 200 OK in 1125ms (Views: 1115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:38:34 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (928.6ms)
+Completed 200 OK in 984ms (Views: 978.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:39:42 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1321.7ms)
+Completed 200 OK in 1477ms (Views: 1469.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:39:50 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1091.8ms)
+Completed 200 OK in 1184ms (Views: 1179.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:41:27 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (989.9ms)
+Completed 200 OK in 1116ms (Views: 1110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:42:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1534.7ms)
+Completed 200 OK in 1634ms (Views: 1630.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:42:43 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (905.5ms)
+Completed 200 OK in 981ms (Views: 976.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:45:47 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (286.2ms)
+Completed 500 Internal Server Error in 320ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (connection refused: belchip.by:80):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_all_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/controllers/search_controller.rb:20:in `find_belchip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213543960060'
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:45:51 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (200.4ms)
+Completed 500 Internal Server Error in 216ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (connection refused: belchip.by:80):
+     6: </nav>
+     7: 
+     8: <div class="search-results">
+     9:   <% products_info = SearchController.new.get_all_products %>
+    10:   <% (0...products_info[0].length).each do |i| %>
+    11:   <div class="card">
+    12:     <div class="card-body">
+  
+app/controllers/search_controller.rb:20:in `find_belchip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb___2656037518385149992_70213575750840'
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:45:53 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:46:12 +0300
+  Rendered search/index.html.erb within layouts/application (83769.3ms)
+Completed 200 OK in 83998ms (Views: 83993.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:47:17 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (9603.4ms)
+Completed 200 OK in 9667ms (Views: 9659.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (4190.5ms)
+Completed 200 OK in 4249ms (Views: 4243.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:47:38 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1595.7ms)
+Completed 200 OK in 2027ms (Views: 2013.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:52:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1927.9ms)
+Completed 200 OK in 2001ms (Views: 1996.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:53:17 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2836.7ms)
+Completed 200 OK in 2941ms (Views: 2937.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:55:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1827.0ms)
+Completed 200 OK in 1969ms (Views: 1964.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:58:21 +0300
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:29: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... product_title.text !include? "еще" ? titles.append(produ...
+...                              ^
+/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:44: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+..._link| product_link !include? 'catalog-show' ? links.append(...
+...                              ^):
+  
+app/controllers/search_controller.rb:29: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/controllers/search_controller.rb:44: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+Started GET "/" for 127.0.0.1 at 2018-10-30 19:59:38 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1909.5ms)
+Completed 200 OK in 2022ms (Views: 2013.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:00:06 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2745.4ms)
+Completed 200 OK in 2795ms (Views: 2790.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:01:23 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1643.7ms)
+Completed 200 OK in 1735ms (Views: 1731.2ms | ActiveRecord: 0.0ms)
+
+

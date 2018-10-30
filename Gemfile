@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+# Includes bootstrap in the project
+gem 'bootstrap', '~> 4.1.3'
+gem 'jquery-rails'
+
 # Gems used for scraping web pages
 gem 'mechanize'
 gem 'nokogiri'
