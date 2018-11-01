@@ -8,7 +8,7 @@
 <div class="search-results">
   <% products_info = SearchController.new.get_all_products %>
   <% (0...products_info[0].length).each do |i| %>
-  <div class="card">
+  <div class="card shadow", style="border: none">
     <div class="card-body">
       <h5 class="card-title"><%= link_to "#{products_info[0][i]} ", "#{products_info[2][i]}" %></h5>
       <p class="card-text"><%= products_info[1][i] %></p>

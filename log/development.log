@@ -5410,3 +5410,283 @@ Processing by SearchController#index as HTML
 Completed 200 OK in 1735ms (Views: 1731.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:24:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2026.8ms)
+Completed 200 OK in 2143ms (Views: 2126.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:25:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1679.9ms)
+Completed 200 OK in 1797ms (Views: 1792.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:25:36 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1896.3ms)
+Completed 200 OK in 1940ms (Views: 1936.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:25:48 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1642.4ms)
+Completed 200 OK in 1683ms (Views: 1680.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:26:12 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1598.8ms)
+Completed 200 OK in 1653ms (Views: 1649.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:28:27 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1952.5ms)
+Completed 200 OK in 2020ms (Views: 2014.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:29:08 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1481.5ms)
+Completed 200 OK in 1540ms (Views: 1534.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:29:25 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1757.0ms)
+Completed 200 OK in 1837ms (Views: 1833.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:29:43 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1775.5ms)
+Completed 200 OK in 1828ms (Views: 1823.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:30:11 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (4854.2ms)
+Completed 200 OK in 4972ms (Views: 4968.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:30:28 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2095.1ms)
+Completed 200 OK in 2177ms (Views: 2170.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:30:39 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2116.1ms)
+Completed 200 OK in 2163ms (Views: 2160.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:30:58 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (4870.6ms)
+Completed 200 OK in 4919ms (Views: 4914.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:31:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1773.4ms)
+Completed 200 OK in 1817ms (Views: 1813.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:31:53 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1483.0ms)
+Completed 200 OK in 1524ms (Views: 1520.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:33:19 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1572.5ms)
+Completed 200 OK in 1615ms (Views: 1610.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:33:57 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1797.9ms)
+Completed 200 OK in 1899ms (Views: 1889.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:34:12 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1522.5ms)
+Completed 200 OK in 1573ms (Views: 1569.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:34:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1549.0ms)
+Completed 200 OK in 1599ms (Views: 1596.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:35:01 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2224.6ms)
+Completed 200 OK in 2329ms (Views: 2320.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:35:52 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1612.6ms)
+Completed 200 OK in 1769ms (Views: 1753.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:36:01 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1803.5ms)
+Completed 200 OK in 1874ms (Views: 1868.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:37:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2260.7ms)
+Completed 200 OK in 2383ms (Views: 2372.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:37:28 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2014.9ms)
+Completed 200 OK in 2152ms (Views: 2147.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:37:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1743.3ms)
+Completed 200 OK in 1821ms (Views: 1816.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:38:13 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1969.3ms)
+Completed 200 OK in 2092ms (Views: 2081.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:38:36 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1690.9ms)
+Completed 200 OK in 1774ms (Views: 1769.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:40:42 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1921.3ms)
+Completed 200 OK in 7543ms (Views: 7519.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:41:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1680.4ms)
+Completed 200 OK in 5538ms (Views: 5534.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:42:17 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1897.0ms)
+Completed 200 OK in 5974ms (Views: 5970.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:43:52 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1869.1ms)
+Completed 200 OK in 5792ms (Views: 5788.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:44:46 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1820.5ms)
+Completed 200 OK in 5605ms (Views: 5600.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:45:26 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2088.9ms)
+Completed 200 OK in 5999ms (Views: 5991.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:45:50 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1813.1ms)
+Completed 200 OK in 5867ms (Views: 5860.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:46:12 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1853.6ms)
+Completed 200 OK in 5259ms (Views: 5252.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:48:06 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1839.4ms)
+Completed 200 OK in 1928ms (Views: 1922.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 20:50:10 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2058.4ms)
+Completed 200 OK in 2286ms (Views: 2273.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 23:37:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1950.9ms)
+Completed 200 OK in 2113ms (Views: 2097.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-30 23:41:44 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2340.0ms)
+Completed 200 OK in 2434ms (Views: 2424.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-31 20:45:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (3162.0ms)
+Completed 200 OK in 3664ms (Views: 3655.0ms | ActiveRecord: 0.0ms)
+
+
