@@ -1,10 +1,11 @@
 require 'mechanize'
 
 class SearchController < ApplicationController
+
   def get_all_products
     chipdip_products = find_chipdip_products.xpath("//tr[contains(@class, 'with-hover')]")
     belchip_products = find_belchip_products.css('.cat-item')
-    info = [self.get_titles(belchip_products, chipdip_products), self.get_prices(belchip_products, chipdip_products), self.get_links(belchip_products, chipdip_products)]
+    info = [self.get_titles(belchip_products, chipdip_products), self.get_prices(belchip_products, chipdip_products), self.get_links(belchip_products, chipdip_products), self.get_photos(belchip_products, chipdip_products), self.get_characteristics(belchip_products, chipdip_products)]
   end
 
   def find_chipdip_products
@@ -44,4 +45,18 @@ class SearchController < ApplicationController
     chipdip_products.xpath('//td/div/a/@href').each { |product_link| !(product_link.to_s.include? 'catalog-show') ? links.append("http://www.ru-chipdip.by#{product_link}") : nil }
     links
   end
+
+  def get_photos belchip_products, chipdip_products
+    photos = []
+    belchip_products.xpath('//a[contains(@class, "product-image")]/img/@src').each { |product_photo| photos.append("http://belchip.by/#{product_photo}") }
+    chipdip_products.xpath('//div[contains(@class, "img-wrapper")]/span/img/@src').each { |product_photo| photos.append(product_photo.to_s) }
+    photos
+  end
+
+  def get_characteristics belchip_products, chipdip_products
+    characteristics = []
+    belchip_products.xpath('//table[contains(@class, "info")]/tbody').each { |product_characteristic| characteristics.append(product_characteristic.text) }
+    #chipdip_products.xpath('//div[contains(@class, "img-wrapper")]/span/img/@src').each { |product_characteristic| characteristics.append(product_characteristic.to_s) }
+    characteristics
+    end
 end

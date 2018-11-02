@@ -26,3 +26,35 @@
 .search-results {
 	padding: 20px;
 }
+
+.hoverinfo {
+	position: field;
+	top: 15px;
+	left: 15px;
+	font-size: 28px;
+	color: #ffffff;
+	cursor: pointer;
+	z-index: 999999;
+}
+
+.hoverinfo p {
+	display: none;
+	color: #000000;
+	z-index: 999999;
+}
+
+.hoverinfo:hover p {
+	background-color: rgba(255, 255, 255, 0.7);
+	display: block;
+	z-index: 999999;
+}
+
+div.nav:hover {
+	position: fixed;
+	right: 5px;
+	top: 80%;
+	width:347px;
+	height:160px;
+	display: block;
+	z-index:99999999;
+}

@@ -5690,3 +5690,1258 @@ Processing by SearchController#index as HTML
 Completed 200 OK in 3664ms (Views: 3655.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-01 17:12:31 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2434.2ms)
+Completed 200 OK in 2886ms (Views: 2877.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:40:21 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2179.7ms)
+Completed 200 OK in 2558ms (Views: 2523.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:42:45 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (300.8ms)
+Completed 500 Internal Server Error in 341ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @person do |f| %>
+    2:   <%= f.label :first_name %>:
+    3:   <%= f.text_field :first_name %><br />
+    4: 
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__343644649377262886_70247122992240'
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:42:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/views/search/index.html.erb:24: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/search/index.html.erb:24: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:43:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (476.1ms)
+Completed 500 Internal Server Error in 490ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fc75eecb9e0>:0x00007fc761db5f80>):
+    1: <%= form_for f %>
+    2:   <%= f.label :first_name %>:
+    3:   <%= f.text_field :first_name %><br />
+    4: 
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__343644649377262886_70247158494280'
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:45:23 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/views/search/index.html.erb:24: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/search/index.html.erb:24: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:45:31 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (433.2ms)
+Completed 500 Internal Server Error in 446ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fc75eecb9e0>:0x00007fc761c530e8>):
+    1: <%= form_with f %>
+    2: <%= f.label :first_name %>:
+    3: <%= f.text_field :first_name %><br />
+    4: 
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__343644649377262886_70247157767400'
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:46:09 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1905.0ms)
+Completed 200 OK in 1968ms (Views: 1963.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=%D0%BF&commit=Search" for 127.0.0.1 at 2018-11-02 18:46:19 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "q"=>"п", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1887.3ms)
+Completed 200 OK in 2087ms (Views: 2009.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=%D0%BF&commit=Search" for 127.0.0.1 at 2018-11-02 18:46:23 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "q"=>"п", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1784.6ms)
+Completed 200 OK in 1936ms (Views: 1893.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:52:42 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (3039.7ms)
+Completed 200 OK in 3170ms (Views: 3160.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 18:59:36 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2306.0ms)
+Completed 200 OK in 2478ms (Views: 2467.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=123&commit=Search" for 127.0.0.1 at 2018-11-02 18:59:45 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "q"=>"123", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2157.6ms)
+Completed 200 OK in 2277ms (Views: 2235.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:02:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2688.7ms)
+Completed 200 OK in 2773ms (Views: 2763.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:02:20 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2030.3ms)
+Completed 200 OK in 2217ms (Views: 2165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:02:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2285.8ms)
+Completed 200 OK in 2346ms (Views: 2342.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:03:41 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (143.5ms)
+Completed 500 Internal Server Error in 167ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     5: <% end %>
+     6: 
+     7: <div class="search-results">
+     8:   <% products_info = SearchController.new.get_all_products %>
+     9:   <% (0...products_info[0].length).each do |i| %>
+    10:   <div class="card shadow", style="border: none">
+    11:     <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:8:in `_app_views_search_index_html_erb__343644649377262886_70247173950960'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:04:25 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (112.2ms)
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     5: <% end %>
+     6: 
+     7: <div class="search-results">
+     8:   <% products_info = SearchController.new.get_all_products %>
+     9:   <% (0...products_info[0].length).each do |i| %>
+    10:   <div class="card shadow", style="border: none">
+    11:     <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:8:in `_app_views_search_index_html_erb__343644649377262886_70247137925660'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:05:51 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (189.4ms)
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     5: <% end %>
+     6: 
+     7: <div class="search-results">
+     8:   <% products_info = SearchController.new.get_all_products %>
+     9:   <% (0...products_info[0].length).each do |i| %>
+    10:   <div class="card shadow", style="border: none">
+    11:     <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:8:in `_app_views_search_index_html_erb__343644649377262886_70247158304140'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:06:51 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 69ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:06:56 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (176.6ms)
+Completed 500 Internal Server Error in 291ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     6: 
+     7: <% if params[:search_text] %>
+     8:   <div class="search-results">
+     9:     <% products_info = SearchController.new.get_all_products %>
+    10:     <% (0...products_info[0].length).each do |i| %>
+    11:     <div class="card shadow", style="border: none">
+    12:       <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb__343644649377262886_70247137907040'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:07:09 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:07:10 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 51ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=a&commit=Search" for 127.0.0.1 at 2018-11-02 19:07:12 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"a", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (170.7ms)
+Completed 500 Internal Server Error in 264ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     6: 
+     7: <% if params[:search_text] %>
+     8:   <div class="search-results">
+     9:     <% products_info = SearchController.new.get_all_products %>
+    10:     <% (0...products_info[0].length).each do |i| %>
+    11:     <div class="card shadow", style="border: none">
+    12:       <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb__343644649377262886_70247137562460'
+Started GET "/search?utf8=%E2%9C%93&search_text=a&commit=Search" for 127.0.0.1 at 2018-11-02 19:07:13 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"a", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (143.0ms)
+Completed 500 Internal Server Error in 234ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     6: 
+     7: <% if params[:search_text] %>
+     8:   <div class="search-results">
+     9:     <% products_info = SearchController.new.get_all_products %>
+    10:     <% (0...products_info[0].length).each do |i| %>
+    11:     <div class="card shadow", style="border: none">
+    12:       <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb__343644649377262886_70247123325340'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:07:26 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:08:21 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 157ms (Views: 136.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:08:24 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (191.0ms)
+Completed 500 Internal Server Error in 288ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     6: 
+     7: <% if params[:search_text] %>
+     8:   <div class="search-results">
+     9:     <% products_info = SearchController.new.get_all_products %>
+    10:     <% (0...products_info[0].length).each do |i| %>
+    11:     <div class="card shadow", style="border: none">
+    12:       <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb__343644649377262886_70247169792180'
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:08:42 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (151.3ms)
+Completed 500 Internal Server Error in 260ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     6: 
+     7: <% if params[:search_text] %>
+     8:   <div class="search-results">
+     9:     <% products_info = SearchController.new.get_all_products %>
+    10:     <% (0...products_info[0].length).each do |i| %>
+    11:     <div class="card shadow", style="border: none">
+    12:       <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb__343644649377262886_70247157351780'
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:09:08 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (200.0ms)
+Completed 500 Internal Server Error in 306ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     6: 
+     7: <% if params[:search_text] %>
+     8:   <div class="search-results">
+     9:     <% products_info = SearchController.new.get_all_products %>
+    10:     <% (0...products_info[0].length).each do |i| %>
+    11:     <div class="card shadow", style="border: none">
+    12:       <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb__343644649377262886_70247129263780'
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:09:09 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (142.7ms)
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `parameters' for nil:NilClass):
+     6: 
+     7: <% if params[:search_text] %>
+     8:   <div class="search-results">
+     9:     <% products_info = SearchController.new.get_all_products %>
+    10:     <% (0...products_info[0].length).each do |i| %>
+    11:     <div class="card shadow", style="border: none">
+    12:       <div class="card-body">
+  
+app/controllers/search_controller.rb:15:in `find_chipdip_products'
+app/controllers/search_controller.rb:6:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb__343644649377262886_70247137220440'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:11:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 161ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-11-02 19:11:09 +0300
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for SearchController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/search" for 127.0.0.1 at 2018-11-02 19:11:11 +0300
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for SearchController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:12:12 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-11-02 19:12:14 +0300
+Processing by SearchController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VmAKyidWrHgkMEhgudecJFyft7143qD2phX/AXh30nHGlpxAGTKXecYWjYutYw31J7tqQLYIG1sBo4NJ2UIzew==", "search_text"=>"1", "commit"=>"Search"}
+No template found for SearchController#create, rendering head :no_content
+Completed 204 No Content in 263ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:12:50 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 81ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-11-02 19:12:52 +0300
+Processing by SearchController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9sk0SABfhfieK6Qa+NL8IwDO9DQC+HBOYWkCaDTf71NmP6LCPju++XwNYfHsZm3ye+opycwuy+PG334gleoOWQ==", "search_text"=>"1", "commit"=>"Search"}
+No template found for SearchController#create, rendering head :no_content
+Completed 204 No Content in 273ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:13:21 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (137.9ms)
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `search_text' for #<SearchController:0x00007fc761c115f8>
+Did you mean?  search_index_path):
+     5: <% end %>
+     6: 
+     7:   <div class="search-results">
+     8:     <% products_info = SearchController.new.get_all_products %>
+     9:     <% (0...products_info[0].length).each do |i| %>
+    10:     <div class="card shadow", style="border: none">
+    11:       <div class="card-body">
+  
+app/controllers/search_controller.rb:18:in `find_chipdip_products'
+app/controllers/search_controller.rb:9:in `get_all_products'
+app/views/search/index.html.erb:8:in `_app_views_search_index_html_erb__343644649377262886_70247157662000'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:13:53 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (654.7ms)
+Completed 500 Internal Server Error in 671ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `search_text' for #<#<Class:0x00007fc761f848c0>:0x00007fc75eb7cb90>
+Did you mean?  search_index_path):
+    4:   <%= submit_tag("Search") %>
+    5: <% end %>
+    6: 
+    7: <% if search_text %>
+    8:   <div class="search-results">
+    9:     <% products_info = SearchController.new.get_all_products %>
+   10:     <% (0...products_info[0].length).each do |i| %>
+  
+app/views/search/index.html.erb:7:in `_app_views_search_index_html_erb__343644649377262886_70247132179800'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:14:01 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 64ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-11-02 19:14:04 +0300
+Processing by SearchController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QL9DXs4Xr2U/VsXqvrrVlqNxXAN1L+Wni0Jvp8UGMxjQSdXU8HOUZN1wAAGqDkRH2FWB/rv5Xgos9BPvZDPSEg==", "search_text"=>"1", "commit"=>"Search"}
+No template found for SearchController#create, rendering head :no_content
+Completed 204 No Content in 262ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:15:28 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 55ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:15:38 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:15:40 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 143ms (Views: 98.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:16:14 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:16:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 70ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 215ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:16:15 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 161ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:16:56 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:16:56 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 66ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (324.4ms)
+Completed 500 Internal Server Error in 518ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `1_path' for #<#<Class:0x00007fc75dac3808>:0x00007fc75dac1c10>):
+    1: <%= form_with(model: @search_text, method: "get") do %>
+    2:   <%= label_tag(:search_text, "Search for:") %>
+    3:   <%= text_field_tag(:search_text) %>
+    4:   <%= submit_tag("Search") %>
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__343644649377262886_70247123402820'
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:16:57 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (243.9ms)
+Completed 500 Internal Server Error in 338ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `1_path' for #<#<Class:0x00007fc75dac3808>:0x00007fc75efcb098>):
+    1: <%= form_with(model: @search_text, method: "get") do %>
+    2:   <%= label_tag(:search_text, "Search for:") %>
+    3:   <%= text_field_tag(:search_text) %>
+    4:   <%= submit_tag("Search") %>
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__343644649377262886_70247134449720'
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:17:17 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (235.8ms)
+Completed 500 Internal Server Error in 328ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `123_path' for #<#<Class:0x00007fc75dac3808>:0x00007fc75da16f40>):
+    1: <%= form_with(model: @search_text, method: "get") do %>
+    2:   <%= label_tag(:search_text, "Search for:") %>
+    3:   <%= text_field_tag(:search_text) %>
+    4:   <%= submit_tag("Search") %>
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__343644649377262886_70247123041340'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:18:34 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=1&commit=Search" for 127.0.0.1 at 2018-11-02 19:18:34 +0300
+Processing by SearchController#index as HTML
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"1", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.9ms)
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 245ms (Views: 240.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 246ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:18:36 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 224ms (Views: 165.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:19:05 +0300
+Processing by SearchController#index as HTML
+Completed 500 Internal Server Error in 180ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `search_text=' for #<SearchController:0x00007fc75da6a4b0>
+Did you mean?  search_index_path):
+  
+app/controllers/search_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:19:36 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 69ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:19:38 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `search_text=' for #<SearchController:0x00007fc763048b20>
+Did you mean?  search_index_path):
+  
+app/controllers/search_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:21:18 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:21:18 +0300
+Processing by SearchController#index as HTML
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+Completed 500 Internal Server Error in 337ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `search_text=' for #<SearchController:0x00007fc76385b8f8>
+Did you mean?  search_index_path):
+  
+app/controllers/search_controller.rb:6:in `index'
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 897ms (Views: 633.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:21:44 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:21:44 +0300
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+      attr_accessor: :search_text
+                   ^):
+  
+app/controllers/search_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/controllers/search_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+      attr_accessor: :search_text
+                   ^):
+  
+app/controllers/search_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:22:12 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 71ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:22:15 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `attr_accessor' for #<SearchController:0x00007fc763f02e68>):
+  
+app/controllers/search_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:24:50 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:24:50 +0300
+Processing by SearchController#index as JS
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (5.4ms)
+  Rendering search/index.html.erb
+Completed 200 OK in 130ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered search/index.html.erb (543.8ms)
+Completed 500 Internal Server Error in 668ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `123_path' for #<#<Class:0x00007fc75da39a68>:0x00007fc763fea1c8>):
+    1: <%= form_with(model: @search_text, method: "get") do %>
+    2:   <%= label_tag(:search_text, "Search for:") %>
+    3:   <%= text_field_tag(:search_text) %>
+    4:   <%= submit_tag("Search") %>
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__343644649377262886_70247176427040'
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:24:53 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (221.5ms)
+Completed 500 Internal Server Error in 228ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `123_path' for #<#<Class:0x00007fc75da39a68>:0x00007fc75f35add0>):
+    1: <%= form_with(model: @search_text, method: "get") do %>
+    2:   <%= label_tag(:search_text, "Search for:") %>
+    3:   <%= text_field_tag(:search_text) %>
+    4:   <%= submit_tag("Search") %>
+  
+app/views/search/index.html.erb:1:in `_app_views_search_index_html_erb__343644649377262886_70247136302160'
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:25:18 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (226.4ms)
+Completed 500 Internal Server Error in 235ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `search_text' for #<SearchController:0x00007fc75da3a530>
+Did you mean?  search_index_path):
+     6: 
+     7: <% if @search_text %>
+     8:   <div class="search-results">
+     9:     <% products_info = SearchController.new.get_all_products %>
+    10:     <% (0...products_info[0].length).each do |i| %>
+    11:     <div class="card shadow", style="border: none">
+    12:       <div class="card-body">
+  
+app/controllers/search_controller.rb:24:in `find_chipdip_products'
+app/controllers/search_controller.rb:15:in `get_all_products'
+app/views/search/index.html.erb:9:in `_app_views_search_index_html_erb__343644649377262886_70247138123720'
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:25:33 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"123", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (601.4ms)
+Completed 200 OK in 611ms (Views: 605.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:25:36 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (683.7ms)
+Completed 200 OK in 691ms (Views: 686.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=%D1%80%D0%BE%D0%B7%D0%B5%D1%82%D0%BA%D0%B0&commit=Search" for 127.0.0.1 at 2018-11-02 19:25:53 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"розетка", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (552.4ms)
+Completed 200 OK in 561ms (Views: 557.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=%D1%80%D0%BE%D0%B7%D0%B5%D1%82%D0%BA%D0%B0&commit=Search" for 127.0.0.1 at 2018-11-02 19:26:10 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"розетка", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (709.6ms)
+Completed 200 OK in 717ms (Views: 713.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:26:39 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (590.9ms)
+Completed 200 OK in 598ms (Views: 593.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:26:41 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (861.9ms)
+Completed 200 OK in 868ms (Views: 865.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:26:44 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (729.4ms)
+Completed 200 OK in 735ms (Views: 732.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:27:40 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (639.8ms)
+Completed 200 OK in 647ms (Views: 643.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:27:49 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (633.0ms)
+Completed 200 OK in 645ms (Views: 638.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:29:15 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (656.3ms)
+Completed 200 OK in 669ms (Views: 661.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:29:18 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (558.8ms)
+Completed 200 OK in 565ms (Views: 562.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:29:35 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (581.0ms)
+Completed 200 OK in 590ms (Views: 584.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:29:38 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (1261.4ms)
+Completed 200 OK in 1268ms (Views: 1264.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:30:17 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (633.4ms)
+Completed 200 OK in 645ms (Views: 639.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:30:20 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (596.8ms)
+Completed 200 OK in 606ms (Views: 603.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:30:41 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (629.6ms)
+Completed 200 OK in 639ms (Views: 633.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:30:44 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"21", "commit"=>"Search"}
+  Rendering search/index.html.erb
+  Rendered search/index.html.erb (616.2ms)
+Completed 200 OK in 623ms (Views: 619.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:31:11 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"21", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (722.6ms)
+Completed 200 OK in 858ms (Views: 853.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:31:15 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (603.1ms)
+Completed 200 OK in 765ms (Views: 715.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:32:31 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"21", "commit"=>"Search"}
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:32:31 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/views/search/index.html.erb:24: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/search/index.html.erb:24: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/MrBlazOn/Desktop/git/ChipSearch/app/views/search/index.html.erb:24: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/search/index.html.erb:24: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started POST "/__web_console/repl_sessions/b6270f01bf050358b40ab9f07b688a94/trace" for 127.0.0.1 at 2018-11-02 19:33:18 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:33:18 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"21", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (554.2ms)
+Completed 200 OK in 606ms (Views: 602.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:33:20 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (552.1ms)
+Completed 200 OK in 680ms (Views: 633.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:33:26 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"21", "commit"=>"Search"}
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:33:26 +0300
+  Rendering search/index.html.erb within layouts/application
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (850.3ms)
+  Rendered search/index.html.erb within layouts/application (769.5ms)
+Completed 200 OK in 983ms (Views: 977.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 978ms (Views: 929.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:33:32 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1025.6ms)
+Completed 200 OK in 1149ms (Views: 1107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:34:24 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:34:24 +0300
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search_text"=>"21", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (581.2ms)
+Completed 200 OK in 663ms (Views: 657.7ms | ActiveRecord: 0.0ms)
+
+
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (548.9ms)
+Completed 200 OK in 724ms (Views: 665.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:34:26 +0300
+Processing by SearchController#index as JS
+  Parameters: {"utf8"=>"✓", "search_text"=>"12", "commit"=>"Search"}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (580.0ms)
+Completed 200 OK in 756ms (Views: 711.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:35:17 +0300
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:35:18 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:35:30 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:35:30 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/search?utf8=%E2%9C%93&search_text=21&commit=Search" for 127.0.0.1 at 2018-11-02 19:36:40 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/search?utf8=%E2%9C%93&search_text=12&commit=Search" for 127.0.0.1 at 2018-11-02 19:36:40 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/search?utf8=%E2%9C%93&search_text=123&commit=Search" for 127.0.0.1 at 2018-11-02 19:37:02 +0300
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:37:02 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+  
+app/controllers/search_controller.rb:4:in `initialize'
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:37:31 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:37:34 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:37:52 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:39:16 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:40:03 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/" for 127.0.0.1 at 2018-11-02 19:40:40 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:17:14 +0300
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/search_controller.rb:4:in `initialize'
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:17:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (700.6ms)
+Completed 500 Internal Server Error in 718ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 2)):
+     7: 
+     8: <div>
+     9:   <div class="search-results">
+    10:     <% products_info = SearchController.new.get_all_products %>
+    11:     <% (0...products_info[0].length).each do |i| %>
+    12:     <div class="card">
+    13:       <div class="card-body">
+  
+app/controllers/search_controller.rb:49:in `get_photos'
+app/controllers/search_controller.rb:8:in `get_all_products'
+app/views/search/index.html.erb:10:in `_app_views_search_index_html_erb__3469160437489826538_70242109916480'
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:18:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (776.1ms)
+Completed 200 OK in 6510ms (Views: 6504.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:18:48 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (524.9ms)
+Completed 200 OK in 567ms (Views: 562.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:18:57 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2002.5ms)
+Completed 200 OK in 2079ms (Views: 2073.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:21:53 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1897.5ms)
+Completed 200 OK in 7703ms (Views: 7684.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:22:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1944.0ms)
+Completed 200 OK in 5617ms (Views: 5605.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:23:11 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1829.8ms)
+Completed 200 OK in 5696ms (Views: 5689.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:23:31 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2150.1ms)
+Completed 200 OK in 5653ms (Views: 5648.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:24:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2312.1ms)
+Completed 200 OK in 2381ms (Views: 2375.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 21:25:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2473.3ms)
+Completed 200 OK in 2534ms (Views: 2529.1ms | ActiveRecord: 0.0ms)
+
+
