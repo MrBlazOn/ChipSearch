@@ -1,6 +1,10 @@
 require 'mechanize'
 
 class SearchController < ApplicationController
+  def index
+    @products = Product.paginate(:page => params[:page], :per_page => 5)
+  end
+
   def get_all_products search_text
     if search_text.class != "NilClass"
       chipdip_products = find_chipdip_products(search_text).xpath("//tr[contains(@class, 'with-hover')]")
