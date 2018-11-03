@@ -1,26 +1,27 @@
 require 'mechanize'
 
 class SearchController < ApplicationController
-
-  def get_all_products
-    chipdip_products = find_chipdip_products.xpath("//tr[contains(@class, 'with-hover')]")
-    belchip_products = find_belchip_products.css('.cat-item')
-    info = [self.get_titles(belchip_products, chipdip_products), self.get_prices(belchip_products, chipdip_products), self.get_links(belchip_products, chipdip_products), self.get_photos(belchip_products, chipdip_products), self.get_characteristics(belchip_products, chipdip_products)]
+  def get_all_products search_text
+    if search_text.class != "NilClass"
+      chipdip_products = find_chipdip_products(search_text).xpath("//tr[contains(@class, 'with-hover')]")
+      belchip_products = find_belchip_products(search_text).css('.cat-item')
+      info = [self.get_titles(belchip_products, chipdip_products), self.get_prices(belchip_products, chipdip_products), self.get_links(belchip_products, chipdip_products), self.get_photos(belchip_products, chipdip_products), self.get_characteristics(belchip_products, chipdip_products)]
+    end
   end
 
-  def find_chipdip_products
+  def find_chipdip_products search_text
     agent = Mechanize.new
     start_page = agent.get('https://www.ru-chipdip.by')
     search_form = start_page.form_with(:id => 'search__form')
-    search_form.searchtext = 'розетка'
+    search_form.searchtext = search_text
     search_page = agent.submit(search_form, search_form.buttons.first).parser
   end
 
-  def find_belchip_products
+  def find_belchip_products search_text
     agent = Mechanize.new
     start_page = agent.get('http://belchip.by')
     search_form = start_page.form_with(:id => 'search_form')
-    search_form.query = 'розетка'
+    search_form.query = search_text
     search_page = agent.submit(search_form, search_form.buttons.first).parser
   end
 
@@ -58,5 +59,5 @@ class SearchController < ApplicationController
     belchip_products.xpath('//table[contains(@class, "info")]/tbody').each { |product_characteristic| characteristics.append(product_characteristic.text) }
     #chipdip_products.xpath('//div[contains(@class, "img-wrapper")]/span/img/@src').each { |product_characteristic| characteristics.append(product_characteristic.to_s) }
     characteristics
-    end
+  end
 end

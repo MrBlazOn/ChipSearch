@@ -1,26 +1,30 @@
-<nav class="navbar navbar-dark bg-dark">
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" width="300px">
-    <button class="btn btn-outline-light" type="submit">Search</button>
-  </form>
-</nav>
+<%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:seacrh_for, "Search for:") %>
+  <%= text_field_tag(:search_text) %>
+  <%= submit_tag("Search") %>
+<% end %>
 
-<div>
-  <div class="search-results">
-    <% products_info = SearchController.new.get_all_products %>
+<div class="search-results">
+  <% products_info = SearchController.new.get_all_products(params[:search_text]) %>
+  <% puts "Hello" %>
+  <% if products_info.length > 0 %>
     <% (0...products_info[0].length).each do |i| %>
-    <div class="card">
-      <div class="card-body">
-        <div class="hoverinfo"> <span><h5 class="card-title"><%= link_to "#{products_info[0][i]} ", "#{products_info[2][i]}" %></h5></span>
-          <p>
-            <%= image_tag products_info[3][i] %>
-            <p class="card-text"><%= products_info[4][i] %></p>
-          </p>
+      <%= puts products_info[0][i].class %>
+      <div class="card shadow", style="border: none">
+        <div class="card-body">
+          <div class="hoverinfo">
+            <span>
+              <h5 class="card-title"><%= link_to "#{products_info[0][i]} ", "#{products_info[2][i]}" %></h5>
+            </span>
+            <p>
+              <%= image_tag products_info[3][i] %>
+              <p class="card-text"><%= products_info[4][i] %></p>
+            </p>
+          </div>
+          <p class="card-text"><%= products_info[1][i] %></p>
         </div>
-        <p class="card-text"><%= products_info[1][i] %></p>
       </div>
-    </div>
-  </div>
-  <br>
+      <br>
+    <% end %>
   <% end %>
 </div>

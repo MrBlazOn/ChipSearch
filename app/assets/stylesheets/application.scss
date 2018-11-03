@@ -27,6 +27,10 @@
 	padding: 20px;
 }
 
+.card {
+	border: none;
+}
+
 .hoverinfo {
 	position: field;
 	top: 15px;
@@ -47,14 +51,4 @@
 	background-color: rgba(255, 255, 255, 0.7);
 	display: block;
 	z-index: 999999;
-}
-
-div.nav:hover {
-	position: fixed;
-	right: 5px;
-	top: 80%;
-	width:347px;
-	height:160px;
-	display: block;
-	z-index:99999999;
 }
