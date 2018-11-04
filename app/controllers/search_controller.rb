@@ -2,7 +2,7 @@ require 'mechanize'
 
 class SearchController < ApplicationController
   def index
-    @products = Product.paginate(:page => params[:page], :per_page => 5)
+    @products = Product.paginate(:page => params[:page], :per_page => 10)
   end
 
   def get_all_products search_text
