@@ -35,7 +35,6 @@
 	position: field;
 	top: 15px;
 	left: 15px;
-	font-size: 28px;
 	color: #ffffff;
 	cursor: pointer;
 	z-index: 999999;
@@ -48,7 +47,6 @@
 }
 
 .hoverinfo:hover p {
-	background-color: rgba(255, 255, 255, 0.7);
-	display: block;
+	display: inline-block;
 	z-index: 999999;
 }

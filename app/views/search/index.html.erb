@@ -1,12 +1,13 @@
-<%= form_tag("/search", method: "get") do %>
-  <%= label_tag(:seacrh_for, "Search for:") %>
-  <%= text_field_tag(:search_text) %>
-  <%= submit_tag("Search") %>
-<% end %>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <%= form_tag("/search", method: "get") do %>
+    <%= text_field_tag :search_text, "", type: "search", class: "form-control-lg form-control-borderless", id: "colFormLabel", placeholder: "Search for" %>
+    <%= submit_tag("Search", class: "btn btn-outline-success") %>
+  <% end %>
+</nav>
 
 <div class="search-results", id="search_results">
-  <% SearchController.new.add_to_database(params[:search_text]) %>
+  <% ids = SearchController.new.add_to_database(params[:search_text]) %>
   <% @products = Product.paginate(:page => params[:page], :per_page => 10) %>
-  <%= render @products %>
+  <%= render @products.find(((ids[0] + 1)..ids[1]).to_a) %>
 </div>
 <%= will_paginate @products %>

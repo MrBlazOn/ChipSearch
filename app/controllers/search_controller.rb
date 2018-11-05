@@ -7,18 +7,25 @@ class SearchController < ApplicationController
 
   def get_all_products search_text
     if search_text.class != "NilClass"
-      chipdip_products = find_chipdip_products(search_text).xpath("//tr[contains(@class, 'with-hover')]")
-      belchip_products = find_belchip_products(search_text).css('.cat-item')
-      info = [self.get_titles(belchip_products, chipdip_products), self.get_prices(belchip_products, chipdip_products), self.get_links(belchip_products, chipdip_products), self.get_images(belchip_products, chipdip_products), self.get_description(belchip_products, chipdip_products)]
+      threads = []
+      chipdip_products = []
+      belchip_products = []
+      threads << Thread.new do
+        belchip_products = find_belchip_products(search_text).css('.cat-item')
+        chipdip_products = find_chipdip_products(search_text).xpath("//tr[contains(@class, 'with-hover')]")
+      end
+      threads.each {|thr| thr.join }
+      info = [self.get_titles(belchip_products, chipdip_products), self.get_prices(belchip_products, chipdip_products), self.get_links(belchip_products, chipdip_products), self.get_images(belchip_products, chipdip_products)]
     end
   end
 
   def add_to_database search_text
-    Product.destroy_all
+    first = Product.last.id
     products_info = get_all_products(search_text)
     (0...products_info[0].length).each do |i|
-      Product.create(title: products_info[0][i], price: products_info[1][i], link: products_info[2][i], img_src: products_info[3][i], description: products_info[4][i])
+      Product.create(title: products_info[0][i], price: products_info[1][i], link: products_info[2][i], img_src: products_info[3][i])
     end
+    return [first, Product.last.id]
   end
 
   def find_chipdip_products search_text
@@ -64,12 +71,5 @@ class SearchController < ApplicationController
     belchip_products.xpath('//a[contains(@class, "product-image")]/img/@src').each { |product_photo| photos.append("http://belchip.by/#{product_photo}") }
     chipdip_products.xpath('//div[contains(@class, "img-wrapper")]/span/img/@src').each { |product_photo| photos.append(product_photo.to_s) }
     photos
-  end
-
-  def get_description belchip_products, chipdip_products
-    characteristics = []
-    belchip_products.xpath('//table[contains(@class, "info")]/tbody').each { |product_characteristic| characteristics.append(product_characteristic.text) }
-    #chipdip_products.xpath('//div[contains(@class, "img-wrapper")]/span/img/@src').each { |product_characteristic| characteristics.append(product_characteristic.to_s) }
-    characteristics
   end
 end
